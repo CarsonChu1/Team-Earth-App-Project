@@ -1,2 +1,2 @@
-eggplant} they are purple} they are purple and weird} dummyURL.com} 0609} |
+eggplant} they are purple} they are purple and weird} R.drawable.eggplant} 0609} |
 name} shortDescription} longDescription} pathtoimg} 0710}
