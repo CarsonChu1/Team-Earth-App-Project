@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    //arrays to contain data
+    //s1 array holds names, s2 holds descriptions
     String s1[], s2[];
 
     int images[] = {R.drawable.strawberry,
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.potato
     };
 
-    //recyler view object
+    //RecyclerView object declaration
     RecyclerView recyclerView;
 
     @Override
@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         Produce apple = new Produce("apple", "this is an apple","an apple","R.drawable.apple", (double) 0406);
 
 
-        //TODO Add proper exception handling code
         try {
             InputStream inputStream = res.openRawResource(R.raw.eggplant);
             ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
@@ -48,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             ex.printStackTrace();
         }
 
-        //initalize recycler view
+        //initialize recyclerView
         recyclerView = findViewById(R.id.recyclerView);
 
         //get string arrays from strings.xml
@@ -57,10 +56,9 @@ public class MainActivity extends AppCompatActivity {
         s1[7] = apple.getName();
         s2[7] = apple.getDescriptionShort();
         s1[7] = eggplant.getName();
-       // images[7] = Integer.parseInt(eggplant.getImgURL());
 
 
-        //intialize my adapter and sent data to its constructor
+        //Initialize MyAdapter and sent data to its constructor
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, images);
 
         recyclerView.setAdapter(myAdapter);
