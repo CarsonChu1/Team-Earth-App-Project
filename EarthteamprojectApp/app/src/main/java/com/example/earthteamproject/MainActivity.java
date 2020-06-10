@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         Resources res = getResources();
         Produce eggplant = new Produce();
+        Produce apple = new Produce("apple", "this is an apple","an apple","R.drawable.apple", (double) 0406);
 
 
         //TODO Add proper exception handling code
@@ -53,9 +54,10 @@ public class MainActivity extends AppCompatActivity {
         //get string arrays from strings.xml
         s1 = getResources().getStringArray(R.array.produce);
         s2 = getResources().getStringArray(R.array.descriptions);
+        s1[7] = apple.getName();
+        s2[7] = apple.getDescriptionShort();
         s1[7] = eggplant.getName();
-        s2[7] = eggplant.getDescriptionShort();
-        //images[8] = Integer.parseInt(eggplant.getImgURL());
+       // images[7] = Integer.parseInt(eggplant.getImgURL());
 
 
         //intialize my adapter and sent data to its constructor

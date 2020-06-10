@@ -1,3 +1,4 @@
+package com.example.earthteamproject;
 
 
 import java.io.*;
@@ -5,7 +6,7 @@ import java.util.*;
 /**-WARNING- This program contains essentially no error handling code. With mediocre power, comes mediocre responsibility**/
 
 
-public class Main {
+public class ProduceTool {
 
     public static void main(String[] args) throws IOException {
         String rawFile = "";
@@ -53,4 +54,5 @@ public class Main {
 
     }
 }
+
 
