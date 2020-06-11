@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
             ex.printStackTrace();
         }
 
+
+
         //initialize recyclerView
         recyclerView = findViewById(R.id.recyclerView);
 

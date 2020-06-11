@@ -55,7 +55,7 @@ public class ProduceTool {
         //saving to file
         for (int i = 0; i < rawProduce.length; i++)
             try {
-                outStream = new FileOutputStream(produceOBJArray[i].getName() + ".bin");
+                outStream = new FileOutputStream(i + ".bin");
                 objStream = new ObjectOutputStream(outStream);
                 objStream.writeObject(produceOBJArray[i]);
                 objStream.close();
