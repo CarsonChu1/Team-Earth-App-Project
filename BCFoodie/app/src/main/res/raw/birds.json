@@ -1,0 +1,52 @@
+{
+  "birds": [
+    {
+      "scientific_name": "Cyanocitta stelleri",
+      "common_name": "Steller's jay",
+      "image": "stellers_jay",
+      "description": "The Steller's jay is a jay native to western North America, closely related to the blue jay found in the rest of the continent, but with a black head and upper body. It is also known as the long-crested jay, mountain jay, Braham's jay and pine jay. It is the only crested jay west of the Rocky Mountains."
+    },
+    {
+      "scientific_name": "Tachycineta thalassina",
+      "common_name": "Violet-green swallow",
+      "image": "violet_green_swallow",
+      "description": "The violet-green swallow is a small North American passerine bird in the swallow family. These aerial insectivores are distributed along the west coast from Alaska to Mexico, extending as far east as Montana and Texas. With an appearance very similar to the tree swallow, these individuals can be identified by the white rump side-patches that appear to separate their green back and purple tail. "
+    },
+    {
+      "scientific_name": "Turdus migratorius",
+      "common_name": "American robin",
+      "image": "american_robin",
+      "description": "The American robin is a migratory songbird of the true thrush genus and Turdidae, the wider thrush family. It is named after the European robin[2] because of its reddish-orange breast, though the two species are not closely related, with the European robin belonging to the Old World flycatcher family. The American robin is widely distributed throughout North America, wintering from southern Canada to central Mexico and along the Pacific Coast. "
+    },
+    {
+      "scientific_name": "Corvus caurinus",
+      "common_name": "Northwestern Crow",
+      "image": "northwestern_crow",
+      "description": "The northwestern crow is an all-black passerine bird of the crow genus native to the northwest of North America. It is very similar to the more western forms of the widespread American crow (Corvus brachyrhynchos), but it averages slightly smaller (33–41 cm in length) with proportionately smaller feet and a slightly more slender bill. This taxon is reliably identified by range only."
+    },
+    {
+      "scientific_name": "Sturnus vulgaris",
+      "common_name": "Common Starling",
+      "image": "common_starling",
+      "description": "The common starling, also known as the European starling, or in the British Isles just the starling, is a medium-sized passerine bird in the starling family, Sturnidae. It is about 20 cm (8 in) long and has glossy black plumage with a metallic sheen, which is speckled with white at some times of year. The legs are pink and the bill is black in winter and yellow in summer; young birds have browner plumage than the adults."
+    },
+    {
+      "scientific_name": "Passer domesticus",
+      "common_name": "House Sparrow",
+      "image": "house_sparrow",
+      "description": "The house sparrow is a bird of the sparrow family Passeridae, found in most parts of the world. A small bird, it has a typical length of 16 cm (6.3 in) and a mass of 24–39.5 g (0.85–1.39 oz). Females and young birds are coloured pale brown and grey, and males have brighter black, white, and brown markings. One of about 25 species in the genus Passer, the house sparrow is native to most of Europe, the Mediterranean Basin, and much of Asia. Its intentional or accidental introductions to many regions, including parts of Australia, Africa, and the Americas, make it the most widely distributed wild bird."
+    },
+    {
+      "scientific_name": "Poecile atricapillus",
+      "common_name": "Black-capped Chickadee",
+      "image": "black_capped_chickadee",
+      "description": "The black-capped chickadee is a small, nonmigratory, North American songbird that lives in deciduous and mixed forests. It is a passerine bird in the tit family Paridae. It is the state bird of both Maine and Massachusetts in the United States, and the provincial bird of New Brunswick in Canada. It is well known for its capability to lower its body temperature during cold winter nights as well as its good spatial memory to relocate the caches where it stores food, and its boldness near humans (sometimes feeding from the hand)."
+    },
+    {
+      "scientific_name": "Sturnella neglecta",
+      "common_name": "Western Meadowlark",
+      "image": "western_meadowlark",
+      "description": "The western meadowlark is a medium-sized icterid bird, about 8.5 in (22 cm) in length. It nests on the ground in open grasslands across western and central North America. It feeds mostly on insects, but will also feed on seeds and berries. The western meadowlark has distinctive calls described as watery or flute-like, which distinguish it from the closely related eastern meadowlark."
+    }
+  ]
+}

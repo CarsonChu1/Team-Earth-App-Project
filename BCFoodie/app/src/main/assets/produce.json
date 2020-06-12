@@ -1,0 +1,396 @@
+{
+  "produce": [
+    {
+      "name": "Apple",
+      "descriptionShort": "Circular shaped fruit that is normally red.",
+      "descriptionLong": "An apple is an edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today.",
+      "imgURL": "apple",
+	  "seasonRange": "1,3",
+	  "price": "$2.00/lb - $2.50/lb"
+    },
+    {
+      "name": "Apricot",
+      "descriptionShort": "Resembles the peach but much smaller, pale yellow or orange with some red shades.",
+      "descriptionLong": "An apricot is a fruit, or the tree that bears the fruit, of several species in the genus Prunus. Usually, an apricot tree is from the species P. armeniaca, but the species P. brigantina, P. mandshurica, P. mume, P. zhengheensis and P. sibirica are closely related, have similar fruit, and are also called apricots.",
+      "imgURL": "apricot",
+	  "seasonRange": "2",
+	  "price": "$3.00/lb"
+    },
+    {
+      "name": "Artichoke",
+      "descriptionShort": "Large thistlelike plant grown for its edible flower buds.",
+      "descriptionLong": "The globe artichoke, also known by the names French artichoke and green artichoke in the U.S., is a variety of a species of thistle cultivated as a food. The edible portion of the plant consists of the flower buds before the flowers come into bloom.",
+      "imgURL": "artichoke",
+	  "seasonRange": "2,3",
+	  "price": "$5.85/lb"
+    },
+	{
+      "name": "Asparagus",
+      "descriptionShort": "Tall with scale like leaves emerging from the underground stem ",
+      "descriptionLong": "Asparagus, or garden asparagus, folk name sparrow grass, scientific name Asparagus officinalis, is a perennial flowering plant species in the genus Asparagus. Its young shoots are used as a spring vegetable. It was once classified in the lily family, like the related Allium species, onions and garlic.",
+      "imgURL": "asparagus",
+	  "seasonRange": "1",
+	  "price": "$15.60/lb"
+    },
+	{
+      "name": "Beans",
+      "descriptionShort": "Pod of certain leguminous plants of the family Fabaceae.",
+      "descriptionLong": "Green beans are the unripe, young fruit and protective pods of various cultivars of the common bean. Immature or young pods of the runner bean, yardlong bean, and hyacinth bean are used in a similar way.",
+      "imgURL": "beans",
+	  "seasonRange": "2,3",
+	  "price": "$3.00/lb – $4.00/lb"
+    },
+	{
+      "name": "Beets",
+      "descriptionShort": "Beets are herbacious biennial root vegetables.",
+      "descriptionLong": "The beetroot is the taproot portion of a beet plant, usually known in Canada and the USA as beets while the vegetable is referred to as beetroot in British English, and also known as the table beet, garden beet, red beet, dinner beet or golden beet.",
+      "imgURL": "beets",
+	  "seasonRange": "0,2,3",
+	  "price": "$1.67/lb - $3.90/lb"
+    },
+	{
+      "name": "Blueberry",
+      "descriptionShort": "Crown forming, woody, perennial shrub",
+      "descriptionLong": "Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild and cultivated —are all native to North America.",
+      "imgURL": "blueberry",
+	  "seasonRange": "2",
+	  "price": "$6.50/lb"
+    },
+	{
+      "name": "Broccoli",
+      "descriptionShort": "Thick green stalk, with leathery leaves.",
+      "descriptionLong": "Broccoli is an edible green plant in the cabbage family whose large flowering head and stalk is eaten as a vegetable. The word broccoli comes from the Italian plural of broccolo, which means the flowering crest of a cabbage, and is the diminutive form of brocco, meaning small nail or sprout.",
+      "imgURL": "broccoli",
+	  "seasonRange": "2,3",
+	  "price": " $4.00/lb - $4.88/lb"
+    },
+	{
+      "name": "Brussel Sprouts",
+      "descriptionShort": "Long, smooth and leathery leaves which are green.",
+      "descriptionLong": "The Brussels sprout is a member of the Gemmifera Group of cabbages, grown for its edible buds. The leaf vegetables are typically 1.5–4.0 cm in diameter and look like miniature cabbages. The Brussels sprout has long been popular in Brussels, Belgium, and may have gained its name there.",
+      "imgURL": "brussel_sprout",
+	  "seasonRange": "0,3",
+	  "price": "$4.00/lb - $9.10/lb"
+    },
+	{
+      "name": "Cabbage",
+      "descriptionShort": "Round with thick green leaves covering its stem",
+      "descriptionLong": "Cabbage is a leafy green, red, or white biennial plant grown as an annual vegetable crop for its dense-leaved heads. It is descended from the wild cabbage, and belongs to the cole crops or brassicas, meaning it is closely related to broccoli and cauliflower; Brussels sprouts; and Savoy cabbage.",
+      "imgURL": "cabbage",
+	  "seasonRange": "3",
+	  "price": "$2.60/lb"
+    },
+	{
+      "name": "Carrot",
+      "descriptionShort": "Root vegetable, usually orange in colour.",
+      "descriptionLong": "The carrot is a root vegetable, usually orange in colour, though purple, black, red, white, and yellow cultivars exist. They are a domesticated form of the wild carrot, Daucus carota, native to Europe and Southwestern Asia. The plant probably originated in Persia and was originally cultivated for its leaves and seeds.",
+      "imgURL": "carrot",
+	  "seasonRange": "2,3",
+	  "price": "$2.60 - $3.00/lb"
+    },
+	{
+      "name": "Cauliflower",
+      "descriptionShort": "Round white vegetable",
+      "descriptionLong": "Cauliflower is one of several vegetables in the species Brassica oleracea in the genus Brassica, which is in the Brassicaceae family. It is an annual plant that reproduces by seed. Typically, only the head is eaten – the edible white flesh sometimes called curd.",
+      "imgURL": "cauliflower",
+	  "seasonRange": "2,3",
+	  "price": "$3.50/lb - $4.88/lb"
+    },
+	{
+      "name": "Celery",
+      "descriptionShort": "Long green fibrous stalk with leaves.",
+      "descriptionLong": "Celery (Apium graveolens) is a marshland plant in the family Apiaceae that has been cultivated as a vegetable since antiquity. Celery has a long fibrous stalk tapering into leaves. Depending on location and cultivar, either its stalks, leaves or hypocotyl are eaten and used in cooking.",
+      "imgURL": "celery",
+	  "seasonRange": "1,2,3",
+	  "price": "$4.94/lb"
+    },
+	{
+      "name": "Chard Swiss",
+      "descriptionShort": "Leafy green vegetable where the stalk can be different colours.",
+      "descriptionLong": "Chard or Swiss chard is a green leafy vegetable. In the cultivars of the Flavescens-Group, the leaf stalks are large and often prepared separately from the leaf blade; the Cicla-Group is the leafy spinach beet.",
+      "imgURL": "chard_swiss",
+	  "seasonRange": "1,2",
+	  "price": "$2.21/bunch - $3.00/bunch"
+    },
+	{
+      "name": "Cherry",
+      "descriptionShort": "Small, round fruit that is bright or dark red.",
+      "descriptionLong": "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe. Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.",
+      "imgURL": "cherry",
+	  "seasonRange": "2",
+	  "price": "$10.00/lb"
+    },
+	{
+      "name": "Corn",
+      "descriptionShort": "Tall cereal grass where the interior yellow.",
+      "descriptionLong": "Maize, also known as corn, is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces pollen inflorescences and separate ovuliferous inflorescences called ears that yield kernels or seeds, which are fruits",
+      "imgURL": "corn",
+	  "seasonRange": "3",
+	  "price": "$1.00/cob"
+    },
+	{
+      "name": "Cranberry",
+      "descriptionShort": "Small crimson circular berries that are the size of grapes.",
+      "descriptionLong": "Cranberries are a group of evergreen dwarf shrubs or trailing vines in the subgenus Oxycoccus of the genus Vaccinium. In Britain, cranberry may refer to the native species Vaccinium oxycoccos, while in North America, cranberry may refer to Vaccinium macrocarpon.",
+      "imgURL": "cranberry",
+	  "seasonRange": "3",
+	  "price": "$2.00/lb"
+    },
+	{
+      "name": "Cucumber",
+      "descriptionShort": "Green elongated fruit with a smooth exterior.",
+      "descriptionLong": "Cucumber is a widely-cultivated creeping vine plant in the Cucurbitaceae gourd family that bears cucumiform fruits, which are used as vegetables. There are three main varieties of cucumber—slicing, pickling, and burpless/seedless—within which several cultivars have been created",
+      "imgURL": "cucumber",
+	  "seasonRange": "2,3",
+	  "price": "$2.00/lb - $2.93/lb"
+    },
+	{
+      "name": "Currant",
+      "descriptionShort": "Small seedless raisin",
+      "descriptionLong": "The blackcurrant or black currant is a woody shrub in the family Grossulariaceae grown for its berries. It is native to temperate parts of central and northern Europe and northern Asia, where it prefers damp fertile soils and is widely cultivated both commercially and domestically.",
+      "imgURL": "currant",
+	  "seasonRange": "2",
+	  "price": "Currants: $4.15/8oz"
+    },
+	{
+      "name": "Fennel",
+      "descriptionShort": "Green herb with a few stems with feathery foliage.",
+      "descriptionLong": "Fennel is a flowering plant species in the carrot family. It is a hardy, perennial herb with yellow flowers and feathery leaves. It is indigenous to the shores of the Mediterranean but has become widely naturalized in many parts of the world, especially on dry soils near the sea-coast and on riverbanks.",
+      "imgURL": "fennel",
+	  "seasonRange": "2,3",
+	  "price": "$3.25/lb - $4.00/lb"
+    },
+	{
+      "name": "Garlic",
+      "descriptionShort": "Plant with long flat grasslike leaves with a white bulb.",
+      "descriptionLong": "Garlic is a species in the onion genus, Allium. Its close relatives include the onion, shallot, leek, chive, and Chinese onion. It is native to Central Asia and northeastern Iran, and has long been a common seasoning worldwide, with a history of several thousand years of human consumption and use",
+      "imgURL": "garlic",
+	  "seasonRange": "2",
+	  "price": "$12.00/lb - $16.90/lb"
+    },
+	{
+      "name": "Gooseberry",
+      "descriptionShort": "Green/Yellow berries approximately 1 inch long.",
+      "descriptionLong": "The gooseberry, with scientific names Ribes uva-crispa, is a species of Ribes. It is native to Europe, the Caucasus and northern Africa. The species is also sparingly naturalized in scattered locations in North America. Gooseberry bushes produce an edible fruit and are grown on both a commercial and domestic basis.",
+      "imgURL": "gooseberry",
+	  "seasonRange": "2",
+	  "price": "$6.00/pt"
+    },
+	{
+      "name": "Grape",
+      "descriptionShort": "Variety of coloured fruit which are ellipsoid shape.",
+      "descriptionLong": "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes can be eaten fresh as table grapes or they can be used for making wine, jam, grape juice, jelly, grape seed extract, raisins, vinegar, and grape seed oil.",
+      "imgURL": "grape",
+	  "seasonRange": "3",
+	  "price": "$5.59/lb"
+    },
+	{
+      "name": "Kale",
+      "descriptionShort": "Leafy green vegetable.",
+      "descriptionLong": "Kale, or leaf cabbage, belongs to a group of cabbage cultivars grown for their edible leaves, although some are used as ornamentals. Kale plants have green or purple leaves, and the central leaves do not form a head.",
+      "imgURL": "kale",
+	  "seasonRange": "0,1,2,3",
+	  "price": "$4.00/lb - $6.50/lb"
+    },
+	{
+      "name": "Leek",
+      "descriptionShort": "Broad flat wrapped dark green leaves with a white stalk.",
+      "descriptionLong": "The leek is a vegetable, a cultivar of Allium ampeloprasum, the broadleaf wild leek. The edible part of the plant is a bundle of leaf sheaths that is sometimes erroneously called a stem or stalk. The genus Allium also contains the onion, garlic, shallot, scallion, chive, and Chinese onion.",
+      "imgURL": "leek",
+	  "seasonRange": "0,2,3",
+	  "price": "$3.25/lb - $4.00/lb"
+    },
+	{
+      "name": "Lettuce",
+      "descriptionShort": "Leafy green plant.",
+      "descriptionLong": "Lettuce is an annual plant of the daisy family, Asteraceae. It is most often grown as a leaf vegetable, but sometimes for its stem and seeds. Lettuce is most often used for salads, although it is also seen in other kinds of food, such as soups, sandwiches and wraps; it can also be grilled",
+      "imgURL": "lettuce",
+	  "seasonRange": "1,2,3",
+	  "price": "$2.50/head"
+    },
+	{
+      "name": "Melon",
+      "descriptionShort": "Circular fruit with a light green/white exterior.",
+      "descriptionLong": "A melon is any of various plants of the family Cucurbitaceae with sweet edible, fleshy fruit. The word melon can refer to either the plant or specifically to the fruit. Botanically, a melon is a kind of berry, specifically a pepo.",
+      "imgURL": "melon",
+	  "seasonRange": "3",
+	  "price": "$2.00/lb - $2.60/lb"
+    },
+	{
+      "name": "Nectarine",
+      "descriptionShort": "Rounded fruit with smooth skin.",
+      "descriptionLong": "Nectarine, (Prunus persica), smooth-skinned peach of the family Rosaceae that is grown throughout the warmer temperate regions of both the Northern and Southern hemispheres.",
+      "imgURL": "nectarine",
+	  "seasonRange": "2",
+	  "price": "Nectarines: $3.00/lb"
+    },
+	{
+      "name": "Onion (Green)",
+      "descriptionShort": "Small elongated straight green leaf and white base.",
+      "descriptionLong": "Green onions are vegetables derived from various species in the genus Allium. Scallions have a milder taste than most onions. Their close relatives include garlic, shallot, leek, chive, and Chinese onions",
+      "imgURL": "onion_green",
+	  "seasonRange": "2,3",
+	  "price": "$2.00/bunch - $2.60/bunch"
+    },
+	{
+      "name": "Onion (Red)",
+      "descriptionShort": "Vegetable with purplish red skin.",
+      "descriptionLong": "Red onions are cultivars of the onion (Allium cepa) with purplish-red skin and white flesh tinged with red. They are most commonly used in the culinary arts, but the skin of the red onion has also been used as a dye.",
+      "imgURL": "onion_red",
+	  "seasonRange": "2,3",
+	  "price": "$1.50/lb - $2.00/lb"
+    },
+	{
+      "name": "Peach",
+      "descriptionShort": "Soft red/yellow fruit with an oval shape and hairy exterior.",
+      "descriptionLong": "The peach is a deciduous tree native to the region of Northwest China between the Tarim Basin and the north slopes of the Kunlun Mountains, where it was first domesticated and cultivated. It bears an edible juicy fruit called a peach or a nectarine",
+      "imgURL": "peach",
+	  "seasonRange": "2",
+	  "price": "$3.25/lb"
+    },
+	{
+      "name": "Pear",
+      "descriptionShort": "Green pyriform fruit",
+      "descriptionLong": "The pear tree and shrub are a species of genus Pyrus, in the family Rosaceae, bearing the pomaceous fruit of the same name. Several species of pear are valued for their edible fruit and juices while others are cultivated as trees",
+      "imgURL": "pear",
+	  "seasonRange": "3",
+	  "price": "$2.50/lb"
+    },
+	{
+      "name": "Pea",
+      "descriptionShort": "Green pod-shaped vegetable.",
+      "descriptionLong": "The pea is most commonly the small spherical seed or the seed-pod of the pod fruit Pisum sativum. Each pod contains several peas, which can be green or yellow. Botanically, pea pods are fruit, since they contain seeds and develop from the ovary of a flower.",
+      "imgURL": "peas",
+	  "seasonRange": "2",
+	  "price": "$6.40/lb - $6.76/lb"
+    },
+	{
+      "name": "Pepper",
+      "descriptionShort": "Bell shaped vegetable with varying colours.",
+      "descriptionLong": "Capsicum, the pepper, is a genus of flowering plants in the nightshade family Solanaceae. Its species are native to the Americas, where they have been cultivated for thousands of years. Peppers are cultivated worldwide and used in many cuisines.",
+      "imgURL": "pepper",
+	  "seasonRange": "2,3",
+	  "price": "$4.80/lb - $8.00/lb"
+    },
+	{
+      "name": "Plum",
+      "descriptionShort": "Rounded and elongated that have different colours.",
+      "descriptionLong": "A plum is a fruit of the subgenus Prunus of the genus Prunus. The subgenus is distinguished from other subgenera in the shoots having terminal bud and solitary side buds, the flowers in groups of one to five together on short stems, and the fruit having a groove running down one side and a smooth stone.",
+      "imgURL": "plum",
+	  "seasonRange": "3",
+	  "price": "$5.59/lb"
+    },
+	{
+      "name": "Potato",
+      "descriptionShort": "Long circular root vegetable.",
+      "descriptionLong": "The potato is a root vegetable native to the Americas, a starchy tuber of the plant Solanum tuberosum, and the plant itself, a perennial in the family Solanaceae. Wild potato species, originating in modern-day Peru, can be found throughout the Americas, from the United States to southern Chile.",
+      "imgURL": "potato",
+	  "seasonRange": "0,2,3",
+	  "price": "$2.00/lb - $2.99/lb"
+    },
+	{
+      "name": "Pumpkin",
+      "descriptionShort": "Round smooth skin often orange.",
+      "descriptionLong": "A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and most often deep yellow to orange in coloration. The thick shell contains the seeds and pulp.",
+      "imgURL": "pumpkin",
+	  "seasonRange": "3",
+	  "price": "$10.00/each"
+    },
+	{
+      "name": "Radish",
+      "descriptionShort": "Short hairy stem and red circular base.",
+	  "descriptionLong": "The radish is an edible root vegetable of the family Brassicaceae that was domesticated in Asia prior to Roman times. Radishes are grown and consumed throughout the world, being mostly eaten raw as a crunchy salad vegetable with bite.",
+      "imgURL": "radish",
+	  "seasonRange": "1",
+	  "price": "$4.00/lb - $7.00/lb"
+    },
+	{
+      "name": "Raspberry",
+      "descriptionShort": "Red circular shiped berries with engraved circular exterior.",
+      "descriptionLong": "The raspberry is the edible fruit of a multitude of plant species in the genus Rubus of the rose family, most of which are in the subgenus Idaeobatus; the name also applies to these plants themselves. Raspberries are perennial with woody stems.",
+      "imgURL": "raspberry",
+	  "seasonRange": "2",
+	  "price": "$4.88/pt"
+    },
+	{
+      "name": "Rhubarb",
+      "descriptionShort": " Reddish stalk and leafy green top.",
+      "descriptionLong": "Rhubarb is a vegetable derived from cultivated plants in the genus Rheum in the family Polygonaceae. The whole plant – a herbaceous perennial growing from short, thick rhizomes – is also called rhubarb. Historically, different plants have been called rhubarb in English.",
+      "imgURL": "rhubarb",
+	  "seasonRange": "2",
+	  "price": "$2.00/lb - $3.90/lb"
+    },
+	{
+      "name": "Rutabaga",
+      "descriptionShort": "Round brownish exterior with green stalks.",
+      "descriptionLong": "The rutabaga, swede, neep, turnip or snagger, also called by several other names in different regions, is a root vegetable that originated as a cross between the cabbage and the turnip. The roots are eaten in a variety of ways, and the leaves can be eaten as a leaf vegetable",
+      "imgURL": "rutabaga",
+	  "seasonRange": "2,3",
+	  "price": "$2.00/lb - $2.28/lb"
+    },
+	{
+      "name": "Saskatoon Berry",
+      "descriptionShort": "Small red/purple berries.",
+      "descriptionLong": "Amelanchier alnifolia, the saskatoon, Pacific serviceberry, western serviceberry, alder-leaf shadbush, dwarf shadbush, chuckley pear, or western juneberry, is a shrub with edible berry-like fruit, native to North America from Alaska across most of western Canada and in the western and north-central United States",
+      "imgURL": "saskatoon_berry",
+	  "seasonRange": "2",
+	  "price": "$6.00/pt"
+    },
+	{
+      "name": "Spinach",
+      "descriptionShort": "Leafy green vegetable.",
+      "descriptionLong": "Spinach is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh, or after storage using preservation techniques by canning, freezing, or dehydration.",
+      "imgURL": "spinach",
+	  "seasonRange": "1,2",
+	  "price": "$16.00/lb"
+    },
+	{
+      "name": "Squash (Summer)",
+      "descriptionShort": "Squashes harvested immaturely with a tender rind.",
+      "descriptionLong": "Summer squash are squashes that are harvested when immature, while the rind is still tender and edible. Nearly all summer squashes are varieties of Cucurbita pepo, though not all Cucurbita pepo are considered summer squashes",
+      "imgURL": "squash_summer",
+	  "seasonRange": "2",
+	  "price": "$4.00/lb"
+    },
+	{
+      "name": "Squash (Winter)",
+      "descriptionShort": "Squashed harvested when mature typically whitish-yellow.",
+      "descriptionLong": "Winter squash is an annual fruit representing several squash species within the genus Cucurbita. It differs from summer squash in that it is harvested and eaten in the mature fruit stage when the seeds within have matured fully and the skin has hardened into a tough rind.",
+      "imgURL": "squash_winter",
+	  "seasonRange": "3",
+	  "price": "$1.80/lb - $2.00/lb"
+    },
+	{
+      "name": "Strawberry",
+      "descriptionShort": "Bright red berry with seeds on the exterior.",
+      "descriptionLong": "The garden strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness",
+      "imgURL": "strawberry",
+	  "seasonRange": "2",
+	  "price": "$3.50/lb"
+    },
+	{
+      "name": "Tomato",
+      "descriptionShort": "Red exterior with an spherical elongated shape.",
+      "descriptionLong": "The tomato is the edible, often red, berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The species originated in western South America and Central America. The Nahuatl word tomatl gave rise to the Spanish word tomate, from which the English word tomato derived.",
+      "imgURL": "tomato",
+	  "seasonRange": "2,3",
+	  "price": "$3.00/lb"
+    },
+	{
+      "name": "Turnip (White)",
+      "descriptionShort": "White base with a disting tail like strand.",
+      "descriptionLong": "The turnip or white turnip is a root vegetable commonly grown in temperate climates worldwide for its white, fleshy taproot. The word turnip is a compound of tur- as in turned/rounded on a lathe and neep, derived from Latin napus, the word for the plant.",
+      "imgURL": "turnip_white",
+	  "seasonRange": "2,3",
+	  "price": "$2.28/lb - $3.25/lb"
+    },
+	{
+      "name": "Zucchini",
+      "descriptionShort": "Long cylindracal green squash.",
+      "descriptionLong": "The zucchini or courgette is a summer squash, of Mesoamerican origin, which can reach nearly 1 metre in length, but is usually harvested when still immature at about 15 to 25 cm. A zucchini is a thin-skinned cultivar of what in Britain and Ireland is referred to as a marrow.",
+      "imgURL": "zucchini",
+	  "seasonRange": "2,3",
+	  "price": "$2.00/lb"
+    }
+  ]
+}
