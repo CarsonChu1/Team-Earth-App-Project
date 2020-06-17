@@ -14,6 +14,8 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 
+import java.time.*;
+
 public class MainActivity extends AppCompatActivity {
     public static ProduceInfo lastProduce;//Instance of last selected produce
     RecyclerView recyclerView;
@@ -21,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
     RecyclerViewAdapter recyclerViewAdapter;
 
     ProduceInfo[] produces;//All the produces
+    ProduceInfo[] filteredProduce;
+
+    int currentMonth;
+    char monthChar;
+
 
     public void loadJSONFromAsset(String fileName) {
         String json;
@@ -64,11 +71,47 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         loadJSONFromAsset("produce.json");//Loads and assigns the values into the variables
 
+        Instant instant = Instant.now();
+        currentMonth = Integer.parseInt(instant.toString().substring(5,7));
+
+        Log.i("dateSet", currentMonth+"");
+
+        if(currentMonth == 12 || currentMonth == 1 || currentMonth == 2)
+            monthChar = 48; //char value 0
+        if(currentMonth == 3 || currentMonth == 4 || currentMonth == 5)
+            monthChar = 49; // value 1
+        if(currentMonth == 6 || currentMonth == 7 || currentMonth == 8)
+            monthChar = 50; //value 2
+        if(currentMonth == 9 || currentMonth == 10 || currentMonth == 11)
+            monthChar = 51; //value 3
+
+        Log.i("monthVarSet", monthChar +"");
+
+        int filterLength = 0;
+        for(int i = 0; i<produces.length; i++){
+            if(produces[i].getSeason().contains(monthChar+"")){
+                filterLength++;
+            Log.i("monthFilter","success " + filterLength);}
+        }
+
+        filteredProduce = new ProduceInfo[filterLength];
+        int successfulHits = 0;
+        for(int i = 0; i<produces.length; i++){
+            
+            if(produces[i].getSeason().contains(monthChar +"")){
+                filteredProduce[successfulHits] = produces[i];
+            successfulHits++;}
+        }
+
+
+
+
+
         setContentView(R.layout.activity_main);
         recyclerView = findViewById(R.id.recyclerView);
         layoutManager = new GridLayoutManager(this, 1);
         recyclerView.setLayoutManager(layoutManager);
-        recyclerViewAdapter = new RecyclerViewAdapter(produces, this);
+        recyclerViewAdapter = new RecyclerViewAdapter(filteredProduce, this);
 
         recyclerView.setAdapter(recyclerViewAdapter);
         recyclerView.setHasFixedSize(true);
