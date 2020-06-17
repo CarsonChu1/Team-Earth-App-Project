@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         filteredProduce = new ProduceInfo[filterLength];
         int successfulHits = 0;
         for(int i = 0; i<produces.length; i++){
-            
+
             if(produces[i].getSeason().contains(monthChar +"")){
                 filteredProduce[successfulHits] = produces[i];
             successfulHits++;}

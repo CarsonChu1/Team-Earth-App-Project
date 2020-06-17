@@ -31,7 +31,7 @@ public class InfoActivity extends AppCompatActivity {
         season = findViewById(R.id.seasonDetail);
         ProduceInfo produce = MainActivity.lastProduce;
         image.setImageResource(produce.getImage());
-        season.setText(produce.getSeason());//Uses produceInfo method method to get name
+        season.setText(produce.getSeasonText());//Uses produceInfo method method to get name
         name.setText(produce.getName());//Uses produceInfo method method to get name
         description.setText(produce.getDescLong());//Uses produceInfo method method to get description
         price.setText(produce.getPrice());

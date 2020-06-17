@@ -36,6 +36,22 @@ public class ProduceInfo {
     public String getPrice(){
         return price;
     }
+    public String getSeasonText(){
+        String textSeason = "In season during: ";
+        if (this.season.contains("0"))
+            textSeason = textSeason + "Winter, ";
+
+        if(this.season.contains("1"))
+            textSeason = textSeason + "Spring, ";
+
+        if(this.season.contains("2"))
+            textSeason = textSeason + "Summer, ";
+
+        if(this.season.contains("3"))
+            textSeason = textSeason + "Fall ";
+
+        return textSeason;
+    }
 
 
 }
